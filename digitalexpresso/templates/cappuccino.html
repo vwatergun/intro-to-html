@@ -1,0 +1,21 @@
+
+{% include "header.html" %}
+
+
+
+        <h1>Product Details</h1>
+
+       
+        <img src="{{ url_for('static', filename='pics/cappuccino.png') }}" class="image" />
+
+
+        <table>
+           <tr><td>Code</td><td>300</td></tr>
+            <tr><td>Description</td><td>Cappuccino </td></tr>
+            <tr><td>Price</td><td>120</td></tr>
+        </table>
+
+        <a href="/products">Back</a>
+
+
+{% include "footer.html" %}
